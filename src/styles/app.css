@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 40px;
+    border-bottom: 1px solid grey;
+}
+
+.main-container {
+    padding: 20px;
+}
+
+.techies-container {
+    margin-top: 30px;
+}
+
+.techies-container .add-new-techie {
+    border: 1px solid grey;
+    height: 40px;
+    float: right;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+table th {
+    background-color: gainsboro;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.techie-form-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 50vh;
+    background: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 40px;
+    box-shadow: -2px 4px 14px grey;
+    padding:10px;
+}
+
+.input-field{
+    margin-top: 20px;
+}
+.input-field label{
+    display:block;
+}
+
+.techies-container li{
+    list-style: none;
+    border:1px solid grey;
+    margin:2px;
+    padding:10px;
+    min-height: 100px;
+}
+
+.techies-container ul{
+    padding:0;
+}
